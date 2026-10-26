@@ -1,0 +1,9 @@
+{
+  "name": "garmin-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "wrangler dev", "deploy": "wrangler deploy" },
+  "dependencies": { "agents": "*", "@modelcontextprotocol/sdk": "*", "zod": "*" },
+  "devDependencies": { "wrangler": "*" }
+}
